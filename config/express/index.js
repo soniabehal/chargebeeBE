@@ -22,7 +22,6 @@ var self=module.exports={
     configRoutes(url){
       routes.forEach(route=>{
             var s=route.path;
-           console.log(">>>>>>>>>",s);
             if(route.method=='GET'){
                 app.get(s,route.controller);
                 
