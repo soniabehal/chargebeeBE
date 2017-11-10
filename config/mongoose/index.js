@@ -3,5 +3,8 @@ const db=require("./db");
 module.exports={
     configureDb(){
         db.connectDb(mongoose);
+    },
+    getInstance(){
+        return mongoose;
     }
 }

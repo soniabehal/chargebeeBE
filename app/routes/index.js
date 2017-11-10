@@ -1,5 +1,5 @@
 
-const user=require("./user");
+const user=require("./subscription");
 const plan=require("./plan");
 const routes=[
     ...user,

@@ -1,4 +1,4 @@
-const mongoose=require("mongoose");
+const mongoose=require("../../config/mongoose").getInstance();
 var plan=mongoose.Schema({
     features:[{type:String}],
     price:{type:String},
