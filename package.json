@@ -15,6 +15,6 @@
     "dotenv": "4.0.0",
     "express": "4.17.3",
     "mongoose": "4.13.0",
-    "nodemon": "1.12.1"
+    "nodemon": "2.0.20"
   }
 }
